@@ -16,7 +16,8 @@
     "pouchdb-node": "^6.0.7"
   },
   "scripts": {
-    "test": "test"
+    "test": "ava",
+    "test:watch": "ava --watch"
   },
   "repository": {
     "type": "git",
